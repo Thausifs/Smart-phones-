@@ -1,0 +1,124 @@
+body {
+    font-family: "Merriweather Sans";
+    text-align: center;
+}
+
+
+#title {
+    background-color: rgb(37, 161, 192);
+    text-align: left;
+    color: white;
+    height: 450px;
+
+}
+h1 {
+    font-family:"Merriweather Sans";
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-left: 15%;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.container-fluid {
+    padding: 0% 10% ;
+}
+
+.navbar-brand {
+    font-family: "spartan";
+    font-size: 2.5rem;
+    font-weight:bold;
+    margin-left: 12px;
+    color: rgb(6, 12, 39);
+}
+.navbar {
+    padding-bottom: 15%;
+
+
+}
+.nav-item {
+    padding:0 18px;
+}
+.nav-link {
+    padding : 1.2 rem;
+    font-family : "Merriweather Sans" ;
+      color: rgb(30, 10, 75);
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+    
+    
+}
+.title-image {
+    width: 60%;
+    transform:rotate(25deg);
+    
+}
+ #features{
+     padding: 7% 15% ;
+     background-color: white;
+     position: relative;
+     z-index: 1;
+ }
+ .feature-box {
+     text-align: center;
+     padding :5%;
+ }
+ .h2 {
+     font-family: "Montserrat-Bold";
+ }
+ .h3 {
+     font-family: "Montserrat-Bold";
+     font-size: 1.5rem;
+     
+ }
+ #testimonials {
+     
+     text-align: center;
+     background-color:rgb(31, 166, 207);
+     color: white;
+ }
+ .testimonial-image {
+     width :10%;
+     
+ }
+
+ .cred-images{
+     width: 20%;
+     margin: 20px 20px;
+ }
+ .carousel-item {
+    padding: 7% 15% ;
+ }
+ #pricing {
+     padding: 100px;
+     text-align: center;
+ }
+    
+ .pricing-coloumn{
+     padding: 3% 2%;
+ }
+ @media (max-width: 1028px) {
+     
+     #title {
+         text-align : center;
+         height: 1050px;
+     }
+     .title-image{
+         position:static ;
+         transform: rotate(0);
+        
+     }
+     h1 {
+         padding-top: 50px;
+     }
+ } 
+ .footer{
+     background-color: rgba(110, 96, 221, 0.021);
+     height: 300px;
+ }
+ .type-button{
+     margin-left: 200px;
+ }
+      
+ 
